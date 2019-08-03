@@ -10,6 +10,7 @@ import Radar from './views/pageRadar.vue'
 import PolarArea from './views/pagePolarArea.vue'
 import Area from './views/pageArea.vue'
 import Mixed from './views/pageMixed.vue'
+import LineReactive from './views/pageLineReactive.vue'
 
 Vue.use(Router)
 
@@ -66,6 +67,11 @@ export default new Router({
       path: '/mixed',
       name: 'mixed',
       component: Mixed,
+    },
+    {
+      path: '/line_reactive',
+      name: 'line_reactive',
+      component: LineReactive,
     },
   ],
 })

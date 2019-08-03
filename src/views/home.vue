@@ -22,6 +22,7 @@ export default {
         { id: 7, name: '鶏頭図', url: '/polar_area' },
         { id: 8, name: '面グラフ', url: '/area' },
         { id: 9, name: '混合グラフ', url: '/mixed' },
+        { id: 10, name: '折れ線グラフ(リアクティブ)', url: '/line_reactive' },
       ],
     }
   },
